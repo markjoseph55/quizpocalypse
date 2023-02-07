@@ -6,6 +6,7 @@ export default {
         },
 
         items: [
+            {
                 question: "Which of the following are ways living humans can be infected by zombies?",
                 choices: {
                     A: "Zombie bite",
