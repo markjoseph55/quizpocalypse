@@ -3,6 +3,7 @@ import arvic from './modules/arvic.js';
 
 // import your .js file here (e.g. import john from './modules/john.js')
 // ...
+import gemma from './modules/gemma.js';
 import shaina from './modules/shaina.js';
 import don from './modules/don.js';
 import markisrael from './modules/markisrael.js';
@@ -18,6 +19,7 @@ const store = Vuex.createStore({
 
         // include your module here (e.g. john)
         // ...
+        gemma,
         shaina,
         don,
         markisrael,
