@@ -22,6 +22,8 @@ import vince from './modules/vince.js';
 import dominic from './modules/dominic.js';
 import lourdes from './modules/lourdes.js';
 import kathlyn from './modules/kathlyn.js';
+import markjoseph from './modules/markjoseph.js';
+
 
 const store = Vuex.createStore({
     modules: {
@@ -48,6 +50,7 @@ const store = Vuex.createStore({
         dominic,
         lourdes,
         kathlyn,
+        markjoseph,
     }
 });
 
