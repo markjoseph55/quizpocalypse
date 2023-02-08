@@ -1,16 +1,17 @@
 // modules
-import kathlyn from './modules/kathlyn.js';
+import arvic from './modules/arvic.js';
 
 // import your .js file here (e.g. import john from './modules/john.js')
 // ...
+import kathlyn from './modules/kathlyn.js';
 
 const store = Vuex.createStore({
     modules: {
-        kathlyn,
+        arvic,
 
         // include your module here (e.g. john)
         // ...
-
+        kathlyn
     }
 });
 
