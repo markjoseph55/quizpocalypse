@@ -12,8 +12,8 @@ const store = Vuex.createStore({
 
         // include your module here (e.g. john)
         // ...
-        lourdes
-        kathlyn
+        lourdes,
+        kathlyn,
     }
 });
 
