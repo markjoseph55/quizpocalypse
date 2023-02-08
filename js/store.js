@@ -1,16 +1,17 @@
 // modules
-import vince from './modules/vince.js';
+import arvic from './modules/arvic.js';
 
 // import your .js file here (e.g. import john from './modules/john.js')
 // ...
+import vince from './modules/vince.js';
 
 const store = Vuex.createStore({
     modules: {
-        vince
+        arvic,
 
         // include your module here (e.g. john)
         // ...
-
+        vince,
     }
 });
 
