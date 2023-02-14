@@ -1,7 +1,7 @@
 export default {
     state: {
         profile: {
-            username: "your-github-username",
+            username: "markjoseph55",
             fullName: "Your Full Name",
         },
 
